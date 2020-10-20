@@ -66,6 +66,8 @@
 		}
 		
 		.ant-table-tbody {
+			cursor: pointer;
+			
 			& > tr:nth-child(2n) td {
 				background-color: #f5f5f5;
 			}
@@ -79,5 +81,11 @@
 	
 	.ant-table-filter-trigger-container:hover {
 		background-color: #778899;
+	}
+	
+	.ant-table-footer {
+		text-align: center;
+		font-weight: bold;
+		color: #d9363e;
 	}
 }

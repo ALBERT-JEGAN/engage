@@ -156,6 +156,7 @@ export class EngageContainer extends Component {
 				scroll={{y:270, scrollToFirstRowOnChange: false }}
 				onChange = {this.onChange}
 				title={() => <span>GUESTS</span>}
+				footer={() => <span>Scroll to get more records</span>}
 				rowSelection={rowSelection}
 				onRow={(record) => ({
 					onClick: () => {
